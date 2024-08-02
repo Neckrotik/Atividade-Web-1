@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Farmácia</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="Main">
+    <h1>Farmácia JS</h1>
+    <form>
+      <label for="medicamento">Medicamento</label>
+      <input type="text" id="medicamento" name="medicamento" /> <br />
+      <br />
+      <label for="preco">Preço</label>
+      <input type="number" id="preco" name="preco" /> <br />
+      <br />
+      <input
+        type="button"
+        id="calcular"
+        name="calcular"
+        onclick="Calcular()"
+        value="Calcular"
+      />
+    </form>
+    <br />
+    <section id="resultado"></section>
+  </div>
+</body>

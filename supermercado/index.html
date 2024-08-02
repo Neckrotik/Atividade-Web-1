@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Supermercado</title>
+</head>
+
+<style>
+  #Main {
+    padding: 20px;
+    margin: auto;
+  }
+</style>
+
+<script>
+  function Calcular() {
+    let prod = window.document.getElementById("produto").value;
+    let preco = parseFloat(window.document.getElementById("preco").value);
+
+    let x = preco / 2;
+    let y = preco * 2 + x;
+
+    window.alert(`${prod} - Promoção: Leve 3 por ${y} reais`);
+  }
+</script>
+
+<body>
+  <div id="Main">
+    <h1>Supermercado JS</h1>
+    <form>
+      <label for="produto">Produto</label>
+      <input type="text" id="produto" name="produto" /> <br />
+      <br />
+      <label for="preco">Preço</label>
+      <input type="number" id="preco" name="preco" /> <br />
+      <br />
+      <input
+        type="button"
+        id="clique"
+        name="clique"
+        onclick="Calcular()"
+        value="Clique"
+      />
+    </form>
+  </div>
+</body>

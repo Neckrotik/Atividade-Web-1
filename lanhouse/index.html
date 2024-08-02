@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Lan House</title>
+  <script src="script.js"></script>
+</head>
+
+<style>
+  #Main {
+    padding: 20px;
+  }
+</style>
+
+<body>
+  <div id="Main">
+    <h1>Lan House JS</h1>
+    <form>
+      <label for="valor">Valor por 15 min (R$)</label>
+      <input type="number" id="valor" name="valor" /> <br />
+      <br />
+      <label for="tempo">Tempo de uso (min)</label>
+      <input type="number" id="tempo" name="tempo" /> <br />
+      <br />
+      <input
+        type="button"
+        id="clique"
+        name="clique"
+        value="Calcular"
+        onclick="Calcular()"
+      />
+    </form>
+  </div>
+</body>

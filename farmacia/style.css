@@ -1,0 +1,15 @@
+* {
+  margin: auto;
+  padding: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#Main {
+  display: grid;
+  float: center;
+}
+
+#Main h1 {
+  padding: 20px;
+}
